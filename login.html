@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/3adfeae27f.js" crossorigin="anonymous"></script>
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 50%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            text-align: center;
+        }
+        input {
+            font-size: 1.5em;
+            padding: 10px 20px;
+        }
+        input[type="submit"] {
+            background-color: lawngreen;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+        }
+        nav a:hover {
+            background-color: darkgrey;
+        }
+        .span1 {
+            margin-left: 20px;
+        }
+        .span2 {
+            display: flex;
+            gap: 20px;
+            margin-right: 20px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <span class="span1">
+            <a href="">Home</a>
+            <a href="">Tools</a>
+            <a href="">About</a>
+            <a href="">Settings</a>
+        </span>
+        <span class="span2">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </span>
+    </nav>
+    <section>
+        <div class="container">
+            <h2>Login please</h2>
+            <input type="text" placeholder="name" required>
+            <input type="email" placeholder="enter email" required>
+            <input type="password" placeholder="enter password" required>
+            <input type="submit">
+        </div>
+    </section>
+    
+</body>
+</html>
